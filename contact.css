@@ -1,3 +1,4 @@
+/* General Styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,29 +6,32 @@ body {
     background: #d5d5d2;
 }
 
+/* Header Styling */
 .header {
-    padding: 8px;
+    padding: 15px;
     text-align: left;
     color: rgb(16, 15, 15);
     font-size: 36px;
     font-weight: bold;
     padding-left: 50px;
-    
 }
 
 .nav {
     padding: 10px 50px;
     font-size: 14px;
     color: #666;
-
 }
 
+/* Main Container */
 .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
     padding: 40px 50px;
 }
 
+/* Contact Form */
 .contact-form {
     width: 50%;
     background: #ffffff;
@@ -46,7 +50,9 @@ body {
     font-size: 14px;
 }
 
-.contact-form input, .contact-form textarea {
+/* Form Inputs */
+.contact-form input,
+.contact-form textarea {
     width: 100%;
     padding: 12px;
     margin: 10px 0;
@@ -55,6 +61,7 @@ body {
     font-size: 14px;
 }
 
+/* Button Styling */
 .contact-form button {
     background: #b07d52;
     color: white;
@@ -70,3 +77,11 @@ body {
     background: #8a5f3e;
 }
 
+/* Contact Image */
+.contact-image {
+    max-width: 500px;
+    height: auto;
+    margin: 20px;
+    border-radius: 8px;
+}
+.i
