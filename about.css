@@ -139,3 +139,14 @@ p {
     font-size: 15px;
     font-weight: normal;
 }
+
+.box {
+    width: 120px;
+    height: 40px;
+    border: 2px solid saddlebrown;
+    background-color: saddlebrown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
