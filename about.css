@@ -78,22 +78,22 @@ h1 {
 .about {
     display: flex;
     justify-content: space-between;
-    height: auto;
-    width: auto;
+    
 }
 
-.about-content {
-    width: 50%;
+.about-contener {
+    flex: 0 0 50%;
+    max-width: 50%;
     height: 100%;
     align-items: center;
 }
 
 .about-content img {
-    width: 630px;
-    height: 430px;
+    max-width: fit-content;
+    height: auto;
 }
 
-.text {
+.container {
     gap: 10px;
     width: 50%;
     margin-left: 5%;
