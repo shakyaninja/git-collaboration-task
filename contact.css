@@ -91,14 +91,13 @@ body {
     object-fit: cover;
 }
 
-/* To adjust the height and width of the image */
 .header-img {
-    width: 100%; /* You can set this to any value you want */
-    height: 50px; /* You can set this to any value you want */
+    width: 100%; 
+    height: 50px;
 }
 
-/* To adjust the height and width of the div element */
+
 .header {
-    width: 100%; /* You can set this to any value you want */
-    height: 70px; /* You can set this to any value you want */
+    width: 100%; 
+    height: 70px;
 }
