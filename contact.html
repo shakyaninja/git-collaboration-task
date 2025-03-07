@@ -3,9 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-    
+    <div class="header">
+        <!-- <img src="carousel-2.jpg" alt="Header Image" class="header-img"> -->
+        <div class="header-text">Contact_US</div>
+        <div class="breadcrumb">Home / Pages / Contact</div>
+    </div>
+
+    <div class="container">
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <p>The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="#">Download Now</a>.</p>
+            <div class="name-email-flex">
+                <div>
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" >
+                </div>
+                <div>
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email">
+                </div>
+            </div>
+            
+            <label for="subject">Subject</label>
+            <input type="text" id="subject">
+            
+            <label for="message">Message</label>
+            <textarea id="message" rows="4"></textarea>
+            
+            <button>Send Message</button>
+        </div>
+        <div class="map">
+            <img src="img.jpg" alt="Map Image">
+        </div>
+    </div>
 </body>
 </html>
