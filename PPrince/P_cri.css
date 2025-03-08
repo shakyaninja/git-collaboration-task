@@ -11,10 +11,9 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /* overflow: hidden; */
+    overflow: hidden;
     align-items: center;
     line-height: 1;
-    /* letter-spacing: 0.2rem; */
 }
 
 body h1 {
