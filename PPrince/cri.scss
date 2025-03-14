@@ -1,0 +1,244 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url('rubi.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    // overflow: hidden;
+    // align-items: center;
+    line-height: 1;
+    width: 100vw;
+    // display: flex;
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+        height: 20px;
+
+        .logo {
+            font-size: 25px;
+            font-weight: bolder;
+            color: #8b5e34;
+            text-decoration: none;
+        }
+
+        .menu {
+            justify-content: center;
+
+            nav {
+                display: flex;
+
+                ul {
+                    list-style: none;
+                    display: flex;
+                    justify-content: center;
+
+                    li {
+                        margin: 0 15px;
+
+                        a {
+                            text-decoration: none;
+                            color: black;
+                            font-size: 15px;
+                            cursor: pointer;
+                            gap: 30px;
+                        }
+                    }
+                }
+
+                .Signup,
+                .Login {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    background-color: blue;
+                    color: white;
+                    text-align: center;
+                    border-radius: 5px;
+                }
+
+            }
+
+
+
+        }
+    }
+
+    .ch {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // height: 100vh;
+
+    }
+
+    .container {
+        display: flex;
+        .flex {
+            display: flex;
+            position: fixed;
+            border-color: rgb(164, 184, 192);
+            border-radius: 2px;
+            cursor: pointer;
+            text-decoration: none;
+
+            .box1 {
+                display: flex;
+                position: fixed;
+                top: 15%;
+                left: 17%;
+                background-color: transparent;
+                padding: 0;
+                align-items: baseline;
+                text-decoration: none;
+                height: fit-content;
+                width: fit-content;
+
+                img {
+                    width: 7%;
+                    height: 3%;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+
+                a {
+                    h2 {
+                        font-size: 30px;
+                    }
+                }
+            }
+
+            .box2 {
+                display: flex;
+                position: fixed;
+                top: 15%;
+                right: 16%;
+                background-color: none;
+                padding: 0;
+                align-items: first baseline;
+                text-decoration: none;
+                height: fit-content;
+                width: fit-content;
+
+                img {
+                    width: 7%;
+                    height: 3%;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+
+                a {
+                    h3 {
+                        font-size: 30px;
+                    }
+                }
+
+            }
+
+            .box3 {
+                display: flex;
+                position: fixed;
+                bottom: 20%;
+                left: 17%;
+                background-color: none;
+                padding: 0;
+                align-items: first baseline;
+                text-decoration: none;
+                height: fit-content;
+                width: fit-content;
+
+                img {
+                    width: 7%;
+                    height: 3%;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+                a {
+                    h4 {
+                        font-size: 30px;
+                    }
+                }
+            }
+
+            .box4 {
+                display: flex;
+                position: fixed;
+                bottom: 20%;
+                right: 13%;
+                background-color: none;
+                padding: 0;
+                align-items: first baseline;
+                text-decoration: none;
+                height: fit-content;
+                width: fit-content;
+
+                img {
+                    width: 7%;
+                    height: 3%;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+                a {
+                    h5 {
+                        font-size: 30px;
+                    }
+                }
+            }
+
+            .promo-container {
+                display: flex;
+                position: absolute;
+                bottom: -70%;
+                // left: 50%;
+                transform: translateX(-50%);
+                align-items: center;
+                flex-direction: column;
+
+                .footer {
+                    font-size: 24px;
+                    font-weight: bold;
+                    color: #333;
+                    margin-bottom: none;
+                    display: flex;
+                    margin: 0%;
+
+
+                    .subfooter {
+                        display: flex;
+                        margin-top: 10px;
+                        color: #555;
+                        gap: 15px;
+
+                        .profile-pictures {
+                            margin-top: 1px;
+                            display: flex;
+                            border: rgb(13, 13, 92);
+
+                            img {
+                                width: 30px;
+                                height: 30px;
+                                border-radius: 50%;
+                                margin: -10px;
+                                border: 2px solid rgb(13, 13, 92);
+                            }
+
+                            .img1 {
+                                z-index: 5;
+                            }
+
+                            .img2 {
+                                z-index: 15;
+                            }
+
+                            .img3 {
+                                z-index: 25;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

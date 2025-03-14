@@ -14,12 +14,10 @@ body {
     overflow: hidden;
     align-items: center;
     line-height: 1;
+    /* letter-spacing: 0.2rem; */
 }
 
-body h1 {
-    align-items: center;
-    justify-content: center;
-}
+
 
 header {
     display: flex;
@@ -35,12 +33,12 @@ header {
     color: #8b5e34;
     text-decoration: none;
 }
-
+/* 
 .feature a {
     display: flex;
     align-items: center;
     text-decoration: none;
-}
+} */
 
 nav ul {
     list-style: none;
@@ -73,11 +71,7 @@ nav ul li a {
     border-radius: 5px;
 }
 
-h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .container {
     width: 100%;
@@ -86,6 +80,15 @@ h1 {
     justify-content: center;
     align-items: center;
 }
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 .float {
     display: flex;
@@ -231,6 +234,7 @@ h5 {
     border-radius: 50%;
     margin: -10px;
     border: 2px solid rgb(13, 13, 92);
+    
 }
 
 .footer {
