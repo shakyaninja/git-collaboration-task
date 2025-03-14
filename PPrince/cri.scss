@@ -5,11 +5,9 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    // overflow: hidden;
-    // align-items: center;
     line-height: 1;
     width: 100vw;
-    // display: flex;
+    overflow: hidden;
 
     header {
         display: flex;
@@ -67,16 +65,22 @@ body {
     }
 
     .ch {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-        // height: 100vh;
-
     }
 
     .container {
         display: flex;
+        width: 100%;
+        height: 100%;
         .flex {
+            width: 100%;
+            height: 100%;
             display: flex;
             position: fixed;
             border-color: rgb(164, 184, 192);
@@ -188,11 +192,10 @@ body {
             }
 
             .promo-container {
-                display: flex;
+                width: 100vw;
                 position: absolute;
-                bottom: -70%;
-                // left: 50%;
-                transform: translateX(-50%);
+                bottom: 0;
+                display: flex;
                 align-items: center;
                 flex-direction: column;
 
