@@ -1,49 +1,56 @@
-body {
+* {
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  color: aliceblue;
+}
+* body {
   margin: 0;
   height: 100vh;
+  width: 100vw;
   background-image: url("rubi.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  overflow: hidden;
+  align-items: center;
   line-height: 1;
-  width: 100vw;
 }
-body header {
+* body header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px;
   height: 20px;
 }
-body header .logo {
+* body header .logo {
   font-size: 25px;
   font-weight: bolder;
   color: #8b5e34;
   text-decoration: none;
 }
-body header .menu {
+* body header .menu {
   justify-content: center;
 }
-body header .menu nav {
+* body header .menu nav {
   display: flex;
 }
-body header .menu nav ul {
+* body header .menu nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
 }
-body header .menu nav ul li {
+* body header .menu nav ul li {
   margin: 0 15px;
 }
-body header .menu nav ul li a {
+* body header .menu nav ul li a {
   text-decoration: none;
   color: black;
   font-size: 15px;
   cursor: pointer;
   gap: 30px;
 }
-body header .menu nav .Signup,
-body header .menu nav .Login {
+* body header .menu nav .Signup,
+* body header .menu nav .Login {
   display: inline-block;
   padding: 10px 20px;
   background-color: blue;
@@ -51,23 +58,29 @@ body header .menu nav .Login {
   text-align: center;
   border-radius: 5px;
 }
-body .ch {
+* body .ch {
   display: flex;
+  width: 100%;
+  height: 100%;
   justify-content: center;
   align-items: center;
 }
-body .container {
+* body .container {
   display: flex;
+  width: 100%;
+  height: 100%;
 }
-body .container .flex {
+* body .container .flex {
   display: flex;
   position: fixed;
+  width: 100%;
+  height: 100%;
   border-color: rgb(164, 184, 192);
   border-radius: 2px;
   cursor: pointer;
   text-decoration: none;
 }
-body .container .flex .box1 {
+* body .container .flex .box1 {
   display: flex;
   position: fixed;
   top: 15%;
@@ -81,17 +94,17 @@ body .container .flex .box1 {
   width: -moz-fit-content;
   width: fit-content;
 }
-body .container .flex .box1 img {
+* body .container .flex .box1 img {
   width: 7%;
   height: 3%;
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-body .container .flex .box1 a h2 {
+* body .container .flex .box1 a h2 {
   font-size: 30px;
 }
-body .container .flex .box2 {
+* body .container .flex .box2 {
   display: flex;
   position: fixed;
   top: 15%;
@@ -105,17 +118,17 @@ body .container .flex .box2 {
   width: -moz-fit-content;
   width: fit-content;
 }
-body .container .flex .box2 img {
+* body .container .flex .box2 img {
   width: 7%;
   height: 3%;
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-body .container .flex .box2 a h3 {
+* body .container .flex .box2 a h3 {
   font-size: 30px;
 }
-body .container .flex .box3 {
+* body .container .flex .box3 {
   display: flex;
   position: fixed;
   bottom: 20%;
@@ -129,17 +142,17 @@ body .container .flex .box3 {
   width: -moz-fit-content;
   width: fit-content;
 }
-body .container .flex .box3 img {
+* body .container .flex .box3 img {
   width: 7%;
   height: 3%;
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-body .container .flex .box3 a h4 {
+* body .container .flex .box3 a h4 {
   font-size: 30px;
 }
-body .container .flex .box4 {
+* body .container .flex .box4 {
   display: flex;
   position: fixed;
   bottom: 20%;
@@ -153,25 +166,30 @@ body .container .flex .box4 {
   width: -moz-fit-content;
   width: fit-content;
 }
-body .container .flex .box4 img {
+* body .container .flex .box4 img {
   width: 7%;
   height: 3%;
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-body .container .flex .box4 a h5 {
+* body .container .flex .box4 a h5 {
   font-size: 30px;
 }
-body .container .flex .promo-container {
+* body .promo-container {
   display: flex;
   position: absolute;
-  bottom: -70%;
+  height: 5%;
+  bottom: 3%;
+  left: 50%;
   transform: translateX(-50%);
   align-items: center;
+  justify-content: center;
   flex-direction: column;
 }
-body .container .flex .promo-container .footer {
+* body .promo-container .footer {
+  width: 100%;
+  height: 100%;
   font-size: 24px;
   font-weight: bold;
   color: #333;
@@ -179,30 +197,30 @@ body .container .flex .promo-container .footer {
   display: flex;
   margin: 0%;
 }
-body .container .flex .promo-container .footer .subfooter {
+* body .promo-container .footer .subfooter {
   display: flex;
   margin-top: 10px;
   color: #555;
   gap: 15px;
 }
-body .container .flex .promo-container .footer .subfooter .profile-pictures {
+* body .promo-container .footer .subfooter .profile-pictures {
   margin-top: 1px;
   display: flex;
   border: rgb(13, 13, 92);
 }
-body .container .flex .promo-container .footer .subfooter .profile-pictures img {
+* body .promo-container .footer .subfooter .profile-pictures img {
   width: 30px;
   height: 30px;
   border-radius: 50%;
   margin: -10px;
   border: 2px solid rgb(13, 13, 92);
 }
-body .container .flex .promo-container .footer .subfooter .profile-pictures .img1 {
+* body .promo-container .footer .subfooter .profile-pictures .img1 {
   z-index: 5;
 }
-body .container .flex .promo-container .footer .subfooter .profile-pictures .img2 {
+* body .promo-container .footer .subfooter .profile-pictures .img2 {
   z-index: 15;
 }
-body .container .flex .promo-container .footer .subfooter .profile-pictures .img3 {
+* body .promo-container .footer .subfooter .profile-pictures .img3 {
   z-index: 25;
 }/*# sourceMappingURL=cri.css.map */
